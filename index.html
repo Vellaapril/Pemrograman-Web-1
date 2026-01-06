@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Pemrograman Web 1 — Materi Perkuliahan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title">Pemrograman Web 1</h1>
+            <p class="site-sub">Media penyajian materi pertemuan</p>
+        </div>
+    </header>
+
+    <div class="app container">
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-top">
+                <input id="search" placeholder="Cari materi..." aria-label="Cari materi" />
+            </div>
+            <nav id="meetingsList" class="meetings-list" aria-label="Daftar Pertemuan">
+                <!-- daftar pertemuan diisi oleh JS -->
+            </nav>
+        </aside>
+
+        <main class="content" id="content" tabindex="0">
+            <!-- konten pertemuan akan di-render di sini -->
+            <article id="article">
+                <h2>Selamat datang di Pemrograman Web 1</h2>
+                <p>Gunakan daftar pertemuan di sebelah kiri untuk memilih materi. Situs ini bersifat statis dan
+                    responsif — dibuat menggunakan HTML, CSS, dan JavaScript tanpa database.</p>
+                <h3>Instruksi singkat</h3>
+                <ul>
+                    <li>Pilih pertemuan untuk melihat ringkasan, tujuan, dan contoh.</li>
+                    <li>Gunakan tombol navigasi untuk pindah antar pertemuan.</li>
+                    <li>Gunakan kotak pencarian untuk memfilter pertemuan.</li>
+                </ul>
+            </article>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <small>© 2026 Pemrograman Web 1 — Materi statis. Dibuat untuk tugas UAS.</small>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
